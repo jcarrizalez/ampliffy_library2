@@ -1,0 +1,24 @@
+{
+  "name":         "ampliffy/library2",
+  "description": "Test Ampliffy Library2.",
+  "keywords":     ["composer", "carritoDeCompras", "shoppingCart"],
+  "homepage":     "https://github.com/jcarrizalez/ampliffy_library2",
+  "type": "project",
+  "require": {
+    "php": ">= 7.4",
+    "nesbot/carbon": "^2.58"
+  },
+  "license":      "MIT",
+  "authors": [
+    {
+      "name": "Juan -Carrizalez",
+      "email": "sitgem@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ampliffy\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+}
